@@ -21,6 +21,7 @@ while answer == 'y':
         else:
             score += 1
             answer = 'y'
+            print(f"You're right! Current score: {score}")
             random_compare = random_against
             random_against = random.choice(game_data.data)
     if choice == 'b':
@@ -30,5 +31,6 @@ while answer == 'y':
         else:
             score += 1
             answer = 'y'
+            print(f"You're right! Current score: {score}")
             random_compare = random_against
             random_against = random.choice(game_data.data)
